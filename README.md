@@ -26,18 +26,20 @@
 
 
 # List of Monuments:
-![alt text](https://github.com/ayoubridouani/Monument_Street_View/master/monuments.png "List of Monuments")
+![List of Monuments](https://raw.githubusercontent.com/ayoubridouani/Monument_Street_View/master/monuments.png "List of Monuments")
 
 
 # Scan QR
-![alt text](https://github.com/ayoubridouani/Monument_Street_View/master/scan%20QR.png "List of Monuments")
+![List of Monuments](https://raw.githubusercontent.com/ayoubridouani/Monument_Street_View/master/scan%20QR.png "List of Monuments")
 
 
 # Panorama Mode:
-![alt text](https://raw.githubusercontent.com/ayoubridouani/Monument_Street_View/master/street%20view.png "Panorama Mode")
+![Panorama Mode](https://raw.githubusercontent.com/ayoubridouani/Monument_Street_View/master/street%20view.png "Panorama Mode")
 
 
 
 
 to contact me: # ridouaniayoub@gmail.com
+
+
 good luck
