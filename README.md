@@ -39,7 +39,7 @@
 
 
 
-to contact me: # ridouaniayoub@gmail.com
+to contact me: ridouaniayoub@gmail.com
 
 
 good luck
