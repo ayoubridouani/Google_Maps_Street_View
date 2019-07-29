@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:id="@+id/layM1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Monuments"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/more1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:textSize="15sp"
+            android:layout_weight="0"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/ic_chevron_right"/>
+
+    </LinearLayout>
+
+    <com.anonsurf.monument.HorizontalListView
+        android:id="@+id/HorizontalListView1"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_below="@id/layM1"/>
+
+    <LinearLayout
+        android:id="@+id/layM2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/HorizontalListView1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Citys"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/more2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:textSize="15sp"
+            android:layout_weight="0"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/ic_chevron_right"/>
+
+    </LinearLayout>
+
+    <com.anonsurf.monument.HorizontalListView
+        android:id="@+id/HorizontalListView2"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_below="@id/layM2"/>
+
+</RelativeLayout>
